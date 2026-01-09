@@ -2,6 +2,11 @@
 
 A modern, scalable, and secure web application built for the Judix Developer Intern assignment. Features a robust MERN stack architecture with JWT-based authentication, real-time profile management, and a high-performance task dashboard.
 
+## 🔗 Deployment Links
+- **Frontend (Vercel):** [https://judix-xi.vercel.app](https://judix-xi.vercel.app/)
+- **Backend (Render):** [https://judix.onrender.com](https://judix.onrender.com)
+- **API Base URL:** `https://judix.onrender.com/api/v1`
+
 ## 🚀 Core Features
 - **Authentication**: JWT-based login/signup with secure password hashing (bcrypt).
 - **Profile Management**: Real-time name updates and secure password change flow.
