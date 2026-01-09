@@ -3,7 +3,12 @@ const cors = require('cors');
 const AppError = require('./utils/AppError');
 
 const app = express();
-app.use(cors());
+app.use(cors({
+  origin: 'https://judix-xi.vercel.app', // Allow only your frontend URL
+  methods: ['GET', 'POST', 'PATCH', 'DELETE', 'PUT'],
+  credentials: true, // Allow cookies/headers
+  allowedHeaders: ['Content-Type', 'Authorization']
+}));
 app.use(express.json());
 
 // Routes
